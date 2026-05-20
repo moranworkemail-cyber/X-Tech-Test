@@ -8,9 +8,8 @@ import ReposteriaPage from './pages/ReposteriaPage';
 
 type Page = 'home' | 'panaderia' | 'pasteleria' | 'reposteria';
 
-// 1. Limpieza absoluta del Hash eliminando barras diagonales no deseadas
 function getPageFromHash(): Page {
-  const hash = window.location.hash.replace('#', '').replace('/', '');
+  const hash = window.location.hash.replace('#', '');
   if (['panaderia', 'pasteleria', 'reposteria'].includes(hash)) {
     return hash as Page;
   }
@@ -21,29 +20,25 @@ export default function App() {
   const [currentPage, setCurrentPage] = useState<Page>(getPageFromHash);
   const [transitioning, setTransitioning] = useState(false);
 
-  // 2. Escuchar los cambios de la URL de forma limpia
   useEffect(() => {
     const handleHashChange = () => {
-      const targetPage = getPageFromHash();
-      
-      // Iniciamos la animación de transición de salida
-      setTransitioning(true);
-      
-      setTimeout(() => {
-        setCurrentPage(targetPage);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-        setTransitioning(false);
-      }, 180);
+      const page = getPageFromHash();
+      if (page !== currentPage) {
+        triggerNav(page);
+      }
     };
-
     window.addEventListener('hashchange', handleHashChange);
     return () => window.removeEventListener('hashchange', handleHashChange);
-  }, []); // <-- ¡Importante! El array vacío aquí evita que se reinicie el listener constantemente.
+  });
 
-  // 3. Cuando un botón del Header o de la App quiere navegar, solo cambia la URL
   const triggerNav = (page: Page) => {
-    // Si la página elegida es home, limpiamos el hash. Si no, le ponemos su nombre.
-    window.location.hash = page === 'home' ? '' : page;
+    setTransitioning(true);
+    setTimeout(() => {
+      setCurrentPage(page);
+      window.location.hash = page === 'home' ? '' : page;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      setTransitioning(false);
+    }, 180);
   };
 
   const renderPage = () => {
