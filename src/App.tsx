@@ -9,7 +9,7 @@ import ReposteriaPage from './pages/ReposteriaPage';
 type Page = 'home' | 'panaderia' | 'pasteleria' | 'reposteria';
 
 function getPageFromHash(): Page {
-  const hash = window.location.hash.replace('#', '');
+  const hash = window.location.hash.replace('#', '').replace('/', '');
   if (['panaderia', 'pasteleria', 'reposteria'].includes(hash)) {
     return hash as Page;
   }
