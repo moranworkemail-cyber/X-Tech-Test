@@ -1,4 +1,4 @@
-# Cloude Code ToolBox — MCP & Skills awareness
+Remove-Item package-lock.json# Cloude Code ToolBox — MCP & Skills awareness
 
 _Generated: 2026-05-20T14:59:49.636Z_
 
