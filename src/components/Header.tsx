@@ -91,19 +91,12 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
                 </div>
               )}
             </div>
-
-            <button
-              onClick={() => handleNav('home')}
-              className="text-sm font-medium text-xela-brown hover:text-xela-gold transition-colors"
-            >
-              Contacto
-            </button>
           </nav>
 
           {/* Mascot character */}
           <div className="hidden md:flex items-center">
             <div className="relative">
-              <div className="w-14 h-14 rounded-full bg-xela-warm border-2 border-blue-500 flex items-center justify-center overflow-hidden shadow-md">
+              <div className="w-20 h-20 rounded-full bg-xela-warm border-2 border-blue-500 flex items-center justify-center overflow-hidden shadow-md">
                 <img
                   src="/image.png"
                   alt="Mascota X-Tech"
