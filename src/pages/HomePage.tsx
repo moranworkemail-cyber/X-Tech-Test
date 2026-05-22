@@ -13,27 +13,52 @@ const featuredProducts = [
   {
     img: 'https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=800',
     thumb: 'https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=400',
-    title: 'Chocolate Caliente',
-    desc: 'Receta artesanal con cacao 100% guatemalteco. Una taza llena de historia y sabor.',
+    title: 'Chocolate Caliente artesanal',
+    desc: 'Receta artesanal con cacao 100%. Una taza llena de historia y sabor artesanal.',
   },
   {
     img: 'https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=800',
     thumb: 'https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=400',
-    title: 'Brownies',
+    title: 'Brownies artesanal',
+    desc: 'Suaves por dentro, con costra crujiente. Hechos con amor en nuestra cocina artesanal.',
+  },
+  {
+    img: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumb: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400',
+    title: 'Pan artesanal',
+    desc: 'Tradicional y esponjoso, elaborado con yemas frescas.',
+  },
+  {
+    img: 'https://images.pexels.com/photos/6941025/pexels-photo-6941025.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumb: 'https://images.pexels.com/photos/6941025/pexels-photo-6941025.jpeg?auto=compress&cs=tinysrgb&w=400',
+    title: 'Mantelito artesanal',
+    desc: 'Descuentos especiales con cada pedido especial. ¡Presentación perfecta!',
+  },
+    {
+    img: 'https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumb: 'https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=400',
+    title: 'Chocolate Caliente artesanal',
+    desc: 'Receta artesanal con cacao 100%. Una taza llena de historia y sabor.',
+  },
+  {
+    img: 'https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumb: 'https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=400',
+    title: 'Brownies artesanal',
     desc: 'Suaves por dentro, con costra crujiente. Hechos con amor en nuestra cocina.',
   },
   {
     img: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800',
     thumb: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400',
-    title: 'Pan de Yema',
-    desc: 'Tradicional y esponjoso, elaborado con yemas frescas cada mañana.',
+    title: 'Pan artesanal',
+    desc: 'Descuentos especiales con cada pedido especial. ¡Presentación perfecta!',
   },
   {
     img: 'https://images.pexels.com/photos/6941025/pexels-photo-6941025.jpeg?auto=compress&cs=tinysrgb&w=800',
     thumb: 'https://images.pexels.com/photos/6941025/pexels-photo-6941025.jpeg?auto=compress&cs=tinysrgb&w=400',
-    title: 'Mantelito X-Tech',
-    desc: 'Mantelito de tela GRATIS con cada pedido especial. ¡Presentación perfecta!',
+    title: 'Mantelito artesanal',
+    desc: 'Descuentos especiales con cada pedido especial. ¡Presentación perfecta!',
   },
+
 ];
 
 const rightBlocks = [
@@ -41,15 +66,31 @@ const rightBlocks = [
     img: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800',
     thumb: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400',
     title: '¿Y tú... ya las probaste?',
-    sub: 'Hamburguesas artesanales sobre pan X-Tech',
-    badge: 'NUEVO',
+    sub: 'Hamburguesas artesanales X-Tech',
+    badge: 'OFERTA',
     dark: true,
   },
   {
     img: 'https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=800',
     thumb: 'https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=400',
-    title: 'Disfruta el sabor en casa Q0.00',
-    sub: 'Pan empacado para llevar, siempre fresco',
+    title: 'Disfruta el sabor en Xela Q0.00',
+    sub: 'Pan empacado artesanal, siempre fresco',
+    badge: 'OFERTA',
+    dark: false,
+  },
+  {
+    img: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumb: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400',
+    title: '¿Y tú... ya las probaste?',
+    sub: 'Hamburguesas artesanales X-Tech',
+    badge: 'OFERTA',
+    dark: true,
+  },
+  {
+    img: 'https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=800',
+    thumb: 'https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=400',
+    title: 'Disfruta el sabor en Xela Q0.00',
+    sub: 'Pan empacado para artesanal, siempre fresco',
     badge: 'OFERTA',
     dark: false,
   },
@@ -207,14 +248,14 @@ export default function HomePage() {
       </section>
 
       {/* Info strip */}
-      <section className="bg-gray-900 text-black py-5">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap items-center justify-left gap-6 md:gap-12 text-sm">
+      <section className="bg-[#e5bdb7] text-[#f3c1b6] py-5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-4 lg:px-6">
+          <div className="flex flex-wrap items-center justify-left gap-6 md:gap-12 text-lg">
             <div className="flex items-center gap-2">
-            <span className="font-semibold text-cream-200/80">Teléfono:</span> <span className="text-cream-100">4287-8490</span>
+            <span className="font-semibold text-black">Teléfono:</span> <span className="text-cream-50">4287-8490</span>
             </div>
               <div className="flex items-center gap-2">
-              <span className="font-semibold text-cream-200/80">Horario:</span> <span className="text-cream-100">AM – PM</span>
+              <span className="font-semibold text-[#3c5468]">Horario:</span> <span className="text-cream-50">AM – PM</span>
             </div>
           </div>
         </div>

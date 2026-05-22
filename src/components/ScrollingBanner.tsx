@@ -1,27 +1,27 @@
 const bannerItems = [
   {
     img: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=320&h=200&fit=crop',
-    label: 'Pan de Yema',
+    label: 'Pan Artensanal',
     sub: 'a jueves a Jueves',
   },
   {
     img: 'https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=320&h=200&fit=crop',
-    label: 'Cumpleaños',
+    label: 'Eventos especiales',
     sub: 'Celebra tu día especial',
   },
   {
     img: 'https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=320&h=200&fit=crop',
-    label: 'Café Recién Hecho',
+    label: 'Café Artensanal Recién Hecho',
     sub: 'Aroma y sabor auténtico',
   },
   {
-    img: 'https://images.pexels.com/photos/1359330/pexels-photo-1359330.jpeg?auto=compress&cs=tinysrgb&w=320&h=200&fit=crop',
-    label: 'Pasteles de Boda',
+    img: '/image.png',
+    label: 'Pasteles Artensanales',
     sub: 'Tu momento perfecto',
   },
   {
     img: 'https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=320&h=200&fit=crop',
-    label: 'Croissants',
+    label: 'Croissants Artensanal',
     sub: 'Recién horneados',
   },
   {
@@ -31,12 +31,12 @@ const bannerItems = [
   },
   {
     img: 'https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=320&h=200&fit=crop',
-    label: 'Brownies',
-    sub: 'Irresistiblemente suaves',
+    label: 'Brownies Artensanal',
+    sub: 'Irresistiblemente rico!',
   },
   {
     img: 'https://images.pexels.com/photos/1414234/pexels-photo-1414234.jpeg?auto=compress&cs=tinysrgb&w=320&h=200&fit=crop',
-    label: 'Chocolate Caliente',
+    label: 'Chocolate Artensanal Caliente',
     sub: 'Calidez en cada taza',
   },
 ];
