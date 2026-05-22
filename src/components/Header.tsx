@@ -30,13 +30,22 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
           {/* Logo */}
           <button
             onClick={() => handleNav('home')}
-            className="flex items-center gap-2 group"
+            className="flex items-center gap-2"
           >
             <div className="flex flex-col items-center leading-none">
-              <span className="font-serif text-2xl md:text-3xl font-bold text-xela-brown tracking-tight group-hover:text-xela-gold transition-colors">
-                <span className="bold text-blue-500">X</span>-Tech
+              {/* Main Heading - Words glow independently on hover */}
+              <span className="font-serif text-2xl md:text-3xl font-bold text-black tracking-tight">
+                <span className="font-bold text-blue-500 transition-all duration-200 hover:text-pink-400 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">PRESENCIA </span>
+                <span className="font-bold text-blue-600 transition-all duration-200 hover:text-pink-500 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">DIGITAL </span>
+                <span className="font-bold text-blue-500 transition-all duration-200 hover:text-pink-600 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">PARA </span>
+                <span className="font-bold text-blue-500 transition-all duration-200 hover:text-pink-700 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">SU </span>
+                <span className="font-bold text-blue-600 transition-all duration-200 hover:text-pink-600 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">NEGOCIO </span>
+                <span className="font-bold text-blue-500 transition-all duration-200 hover:text-pink-500 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">X</span>
+                <span className="transition-all duration-200 hover:text-xela-gold hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">-Tech</span>
               </span>
-              <span className="text-[9px] text-xela-brown/60 tracking-[0.3em] uppercase font-medium">
+              
+              {/* Subtitle - Glows independently when hovered directly */}
+              <span className="text-[9px] text-xela-brown/60 tracking-[0.3em] uppercase font-medium transition-all duration-200 hover:text-xela-brown hover:drop-shadow-[0_0_8px_rgba(78,52,46,0.6)] mt-1">
                 Alimentos Artesanales
               </span>
             </div>
