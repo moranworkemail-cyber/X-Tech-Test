@@ -37,61 +37,10 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
                 <span className="bold text-blue-500">X</span>-Tech
               </span>
               <span className="text-[9px] text-xela-brown/60 tracking-[0.3em] uppercase font-medium">
-                Panadería Artesanal
+                Alimentos Artesanales
               </span>
             </div>
           </button>
-
-          {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-8">
-            <button
-              onClick={() => handleNav('home')}
-              className={`text-sm font-medium transition-colors hover:text-xela-gold ${
-                currentPage === 'home' ? 'text-xela-gold' : 'text-xela-brown'
-              }`}
-            >
-              Inicio
-            </button>
-
-            {/* Catalog dropdown */}
-            <div className="relative">
-              <button
-                onClick={() => setDropdownOpen(!dropdownOpen)}
-                onBlur={() => setTimeout(() => setDropdownOpen(false), 150)}
-                className="flex items-center gap-1 text-sm font-medium text-xela-brown hover:text-xela-gold transition-colors"
-              >
-                Catálogo
-                <ChevronDown
-                  size={16}
-                  className={`transition-transform duration-200 ${dropdownOpen ? 'rotate-180' : ''}`}
-                />
-              </button>
-
-              {dropdownOpen && (
-                <div className="absolute top-full left-0 mt-2 w-72 bg-white rounded-xl shadow-xl border border-cream-200 overflow-hidden z-50 animate-fade-in">
-                  {catalogItems.map((item) => (
-                    <button
-                      key={item.id}
-                      onMouseDown={() => handleNav(item.id)}
-                      className={`w-full text-left px-4 py-3 text-sm transition-colors flex items-center gap-3 ${
-                        currentPage === item.id
-                          ? 'bg-xela-warm text-xela-brown font-semibold'
-                          : 'text-gray-700 hover:bg-cream-100'
-                      }`}
-                    >
-                      {currentPage === item.id && (
-                        <span className="w-1.5 h-1.5 rounded-full bg-xela-gold flex-shrink-0" />
-                      )}
-                      {currentPage !== item.id && (
-                        <span className="w-1.5 h-1.5 rounded-full bg-transparent flex-shrink-0" />
-                      )}
-                      {item.label}
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
-          </nav>
 
           {/* Mascot character */}
           <div className="hidden md:flex items-center">
@@ -105,50 +54,8 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
               </div>
             </div>
           </div>
-
-          {/* Mobile menu button */}
-          <button
-            className="md:hidden p-2 text-xela-brown"
-            onClick={() => setMobileOpen(!mobileOpen)}
-          >
-            {mobileOpen ? <X size={22} /> : <Menu size={22} />}
-          </button>
         </div>
       </div>
-
-      {/* Mobile menu */}
-      {mobileOpen && (
-        <div className="md:hidden bg-white border-t border-cream-200 px-4 py-4 space-y-1 animate-fade-in">
-          <button
-            onClick={() => handleNav('home')}
-            className="block w-full text-left py-2.5 px-3 rounded-lg text-sm font-medium text-xela-brown hover:bg-cream-100"
-          >
-            Inicio
-          </button>
-          <div className="py-1 px-3 text-xs font-semibold text-xela-gold uppercase tracking-widest">
-            Catálogo
-          </div>
-          {catalogItems.map((item) => (
-            <button
-              key={item.id}
-              onClick={() => handleNav(item.id)}
-              className={`block w-full text-left py-2.5 px-5 rounded-lg text-sm transition-colors ${
-                currentPage === item.id
-                  ? 'bg-xela-warm text-xela-brown font-semibold'
-                  : 'text-gray-600 hover:bg-cream-100'
-              }`}
-            >
-              {item.label}
-            </button>
-          ))}
-          <button
-            onClick={() => handleNav('home')}
-            className="block w-full text-left py-2.5 px-3 rounded-lg text-sm font-medium text-xela-brown hover:bg-cream-100"
-          >
-            Contacto
-          </button>
-        </div>
-      )}
     </header>
   );
 }

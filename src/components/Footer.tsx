@@ -1,16 +1,18 @@
-import { Phone } from 'lucide-react';
+import { Phone, MapPin, CreditCard} from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t border-cream-200 pt-8 pb-6">
+    <footer className="bg-white py-3 w-full">
+      {/* SECTION 1: Social Row & Map Container */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Social row */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-5">
-          <div className="flex items-center gap-4">
+          
+          {/* Left Side: Social Icons AND the New Map Button */}
+          <div className="flex items-center gap-4 flex-wrap justify-center sm:justify-start">
             {/* Facebook */}
             <a
               href="#"
-              className="w-10 h-10 rounded-full bg-cream-100 hover:bg-blue-500 hover:text-white text-blue-400 flex items-center justify-center transition-all duration-200 hover:scale-110"
+              className="w-10 h-10 rounded-full bg-cream-100 hover:bg-blue-500 hover:text-white text-blue-500 flex items-center justify-center transition-all duration-200 hover:scale-110"
               aria-label="Facebook"
             >
               <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
@@ -30,19 +32,23 @@ export default function Footer() {
             </a>
 
             {/* Messenger */}
+            {/* Updated Button to trigger your free automated welcome message */}
             <a
-              href="https://www.facebook.com/messages/t/100010592556025"
-              className="w-10 h-10 rounded-full bg-cream-100 hover:bg-blue-400 hover:text-white text-blue-400 flex items-center justify-center transition-all duration-200 hover:scale-110"
+              href="https://m.me/TuPagina?ref=ElLinkGratisDeManychat" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 rounded-full bg-cream-100 hover:bg-blue-400 hover:text-white text-blue-500 flex items-center justify-center transition-all duration-200 hover:scale-110"
               aria-label="Messenger"
             >
-              <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                <path d="M12 0C5.373 0 0 4.974 0 11.111c0 3.498 1.744 6.614 4.469 8.654V24l4.088-2.242c1.092.3 2.246.464 3.443.464 6.627 0 12-4.975 12-11.111S18.627 0 12 0zm1.191 14.963l-3.055-3.26-5.963 3.26L10.732 8l3.131 3.259L19.752 8l-6.561 6.963z" />
-              </svg>
-            </a>
+                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                  <path d="M12 0C5.373 0 0 4.974 0 11.111c0 3.498 1.744 6.614 4.469 8.654V24l4.088-2.242c1.092.3 2.246.464 3.443.464 6.627 0 12-4.975 12-11.111S18.627 0 12 0zm1.191 14.963l-3.055-3.26-5.963 3.26L10.732 8l3.131 3.259L19.752 8l-6.561 6.963z" />
+                </svg>
+              </a>
 
             {/* WhatsApp */}
             <a
-              href="https://wa.me/50242848490"
+              // 1. Added the encoded text parameter directly to your phone number link
+              href="https://wa.me/50242848490?text=Hola%20X-Tech%2C%20%C2%BFc%C3%B3mo%20me%20pueden%20ayudar%3F"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-cream-100 hover:bg-green-400 hover:text-white text-green-600 flex items-center justify-center transition-all duration-200 hover:scale-110"
@@ -55,24 +61,56 @@ export default function Footer() {
 
             {/* Phone */}
             <a
-              href="tel:+50242878490"
+              href="tel:+50245388057"
               className="w-10 h-10 rounded-full bg-cream-100 hover:bg-green-600 hover:text-white text-green-500 flex items-center justify-center transition-all duration-200 hover:scale-110"
               aria-label="Teléfono"
             >
               <Phone size={18} />
             </a>
+
+            {/* 📍 NEW: Google Maps Square Button */}
+            {/* Replace the URL inside href with your exact Google Maps business link */}
+            <a
+              href="https://maps.google.com/?q=Quetzaltenango,Guatemala"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 rounded-lg bg-cream-100 hover:bg-green-400 hover:text-white text-red-500 flex items-center justify-center transition-all duration-200 hover:scale-110 border border-cream-200/50 shadow-sm"
+              aria-label="Ver ubicación en Google Maps"
+            >
+              <MapPin size={19} className="animate-pulse" />
+            </a>
+            {/* Credit Card Payment */}
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 rounded-full bg-cream-100 hover:bg-blue-600 hover:text-white text-blue-500 flex items-center justify-center transition-all duration-200 hover:scale-110"
+              aria-label="Pagar con Tarjeta"
+            >
+              <CreditCard size={18} />
+            </a>
           </div>
         </div>
+      </div>
 
-        {/* Divider */}
-        <div className="mt-6 pt-5 border-t border-cream-200 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <p className="text-xs text-gray-400">
-            &copy; 2026 X-Tech. Todos los derechos reservados.
+      {/* SECTION 2: Full-Width Divider Line */}
+      <div className="w-full border-t border-cream-200 mt-3" />
+
+      {/* SECTION 3: Copyright Info */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-3">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-2 w-full">
+          <p className="text-xs text-gray-500">
+            Project-2026 X-Tech. Todos los derechos reservados.
           </p>
-          <div className="flex items-center gap-1 text-xs text-gray-400">
-            <span>Panadería Artesanal</span>
-            <span className="text-gray-">•</span>
-            <span>Xela, Quetzaltenango</span>
+          <div className="flex items-center gap-1 text-xs text-gray-500">
+            <span>Alimentos Artesanales</span>
+            <span className="text-gray-400">•</span>
+            <span>Xela.</span>
+          </div>
+            <div className="flex items-center gap-1 text-xs text-gray-500">
+            <span>Dirección:</span>
+            <span className="text-gray-400"></span>
+            <span>Zona 9,Quetzaltenango.</span>
           </div>
         </div>
       </div>

@@ -73,7 +73,7 @@ export default function Modal({ image, title, description, onClose }: ModalProps
             </a>
             <button
               onClick={onClose}
-              className="text-sm text-gray-500 hover:text-xela-brown transition-colors"
+              className="text-sm text-gray-500 hover:text-green-500 transition-colors"
             >
               Cerrar
             </button>

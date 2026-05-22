@@ -1,6 +1,6 @@
-Remove-Item package-lock.json# Cloude Code ToolBox — MCP & Skills awareness
+# Cloude Code ToolBox — MCP & Skills awareness
 
-_Generated: 2026-05-20T14:59:49.636Z_
+_Generated: 2026-05-22T15:12:58.100Z_
 
 ## How to use this report
 
@@ -13,9 +13,9 @@ _Generated: 2026-05-20T14:59:49.636Z_
 
 ## MCP — workspace
 
-Workspace `mcp.json` _(folder: Special)_
+Workspace `mcp.json` _(folder: Special - Copy)_
 
-- **c:\Users\X-Tech\Documents\Special\.mcp.json** — _File missing_
+- **c:\Users\X-Tech\Documents\Special - Copy\.mcp.json** — _File missing_
 
 _No active workspace servers in mcp.json._
 
