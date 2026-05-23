@@ -134,15 +134,16 @@ export default function HomePage() {
 
               <div className="mt-5 space-y-1">
                 <p className="text-xela-brown font-semibold text-sm tracking-wide">MODERNIZATE, LA PRESENCIA DIGITAL DE TU NEGOCIO ES IMPORTANTE...</p>
-                <p className="text-xela-brown font-semibold text-sm tracking-wide">✅¡Aparecer en los motores de búsqueda de Google!</p>
-                <p className="text-xela-brown font-semibold text-sm tracking-wide">✅¡Confiancia con tus futuros clientes!</p>
-                <p className="text-xela-brown font-semibold text-sm tracking-wide">✅¡Solidez de tu negocio!</p>
-                <p className="text-xela-brown font-semibold text-sm tracking-wide">✅¡Enlace de tus redes sociales para atraer más clientes!</p>
-                <p className="text-xela-brown font-semibold text-sm tracking-wide">✅¡Dar a conocer tu negocio al mundo!</p>
-                <p className="text-xela-brown font-semibold text-sm tracking-wide">✅¡Aparecer en Google!</p>
-                <p className="text-xela-brown font-semibold text-sm tracking-wide">✅¡Hacer más ventas!</p>
-                <p className="text-xela-brown font-semibold text-sm tracking-wide">✅¡Y más ventas equivale a más clientes o dinero!</p>
-                 <p className="text-xela-brown font-semibold text-sm tracking-wide">✅¡Además, todos los botones integrados para una mejor experiencia de tus clientes y tu negocio!</p>             
+                <p className="text-xela-brown font-semibold text-sm tracking-wide">🚀¡Aparecer en los motores de búsqueda de Google!</p>
+                <p className="text-xela-brown font-semibold text-sm tracking-wide">🚀¡Confiancia con tus futuros clientes!</p>
+                <p className="text-xela-brown font-semibold text-sm tracking-wide">🚀¡Solidez de tu negocio!</p>
+                <p className="text-xela-brown font-semibold text-sm tracking-wide">🚀¡Enlace de tus redes sociales para atraer más clientes!</p>
+                <p className="text-xela-brown font-semibold text-sm tracking-wide">🚀¡Dar a conocer tu negocio al mundo!</p>
+                <p className="text-xela-brown font-semibold text-sm tracking-wide">🚀¡Aparecer en Google!</p>
+                <p className="text-xela-brown font-semibold text-sm tracking-wide">🚀¡Hacer más ventas!</p>
+                <p className="text-xela-brown font-semibold text-sm tracking-wide">🚀¡Y más ventas equivale a más clientes o dinero!</p>
+                <p className="text-xela-brown font-semibold text-sm tracking-wide">🚀¡Además, todos los botones integrados para una mejor experiencia de tus clientes y tu negocio!</p>             
+                <p className="text-xela-brown font-semibold text-sm tracking-wide"></p>
               </div>
             </div>
 
@@ -257,12 +258,12 @@ export default function HomePage() {
       {/* Info strip */}
       <section className="bg-[#e5bdb7] text-[#f3c1b6] py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-4 lg:px-6">
-          <div className="flex flex-wrap items-center justify-left gap-6 md:gap-12 text-lg">
+          <div className="flex flex-wrap items-center justify-left gap-6 md:gap-12 text-base">
             <div className="flex items-center gap-2">
-            <span className="font-semibold text-black">Teléfono:</span> <span className="text-cream-50">4287-8490</span>
+            <span className="font-semibold text-gray-800">Teléfono:</span> <span className="text-cream-50">4287-8490</span>
             </div>
               <div className="flex items-center gap-2">
-              <span className="font-semibold text-[#3c5468]">Horario:</span> <span className="text-cream-50">AM – PM</span>
+              <span className="font-semibold text-gray-800">Horario:</span> <span className="text-cream-50">AM – PM</span>
             </div>
           </div>
         </div>

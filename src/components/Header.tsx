@@ -38,7 +38,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
                 <span className="font-bold text-blue-500 transition-all duration-200 hover:text-pink-400 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">PRESENCIA </span>
                 <span className="font-bold text-blue-600 transition-all duration-200 hover:text-pink-500 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">DIGITAL </span>
                 <span className="font-bold text-blue-500 transition-all duration-200 hover:text-pink-600 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">PARA </span>
-                <span className="font-bold text-blue-500 transition-all duration-200 hover:text-pink-700 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">SU </span>
+                <span className="font-bold text-blue-500 transition-all duration-200 hover:text-pink-700 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">TU </span>
                 <span className="font-bold text-blue-600 transition-all duration-200 hover:text-pink-600 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">NEGOCIO </span>
                 <span className="font-bold text-blue-500 transition-all duration-200 hover:text-pink-500 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">X</span>
                 <span className="transition-all duration-200 hover:text-xela-gold hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">-Tech</span>
