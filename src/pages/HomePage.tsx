@@ -46,19 +46,6 @@ const featuredProducts = [
     title: 'Brownies artesanal',
     desc: 'Suaves por dentro, con costra crujiente. Hechos con amor en nuestra cocina.',
   },
-  {
-    img: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800',
-    thumb: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400',
-    title: 'Pan artesanal',
-    desc: 'Descuentos especiales con cada pedido especial. ¡Presentación perfecta!',
-  },
-  {
-    img: 'https://images.pexels.com/photos/6941025/pexels-photo-6941025.jpeg?auto=compress&cs=tinysrgb&w=800',
-    thumb: 'https://images.pexels.com/photos/6941025/pexels-photo-6941025.jpeg?auto=compress&cs=tinysrgb&w=400',
-    title: 'Mantelito artesanal',
-    desc: 'Descuentos especiales con cada pedido especial. ¡Presentación perfecta!',
-  },
-
 ];
 
 const rightBlocks = [
@@ -75,22 +62,6 @@ const rightBlocks = [
     thumb: 'https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=400',
     title: 'Disfruta el sabor en Xela Q0.00',
     sub: 'Pan empacado artesanal, siempre fresco',
-    badge: 'OFERTA',
-    dark: false,
-  },
-  {
-    img: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800',
-    thumb: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400',
-    title: '¿Y tú... ya las probaste?',
-    sub: 'Hamburguesas artesanales X-Tech',
-    badge: 'OFERTA',
-    dark: true,
-  },
-  {
-    img: 'https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=800',
-    thumb: 'https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=400',
-    title: 'Disfruta el sabor en Xela Q0.00',
-    sub: 'Pan empacado para artesanal, siempre fresco',
     badge: 'OFERTA',
     dark: false,
   },
