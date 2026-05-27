@@ -70,7 +70,7 @@ export default function ScrollingBanner() {
                 </p>
                 <div className="mt-1.5 flex items-center gap-1">
                   <span className="text-[9px] text-xela-light tracking-widest uppercase font-semibold">
-                    X-Tech
+                    X-Tech Moran-Monroe
                   </span>
                 </div>
               </div>

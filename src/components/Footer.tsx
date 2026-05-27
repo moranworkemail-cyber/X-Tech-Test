@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="flex items-center gap-4 flex-wrap justify-center sm:justify-start">
             {/* Facebook */}
             <a
-              href="#"
+              href="https://www.facebook.com/profile.php?id=100010592556025"
               className="w-10 h-10 rounded-full bg-cream-100 hover:bg-blue-500 hover:text-white text-blue-500 flex items-center justify-center transition-all duration-200 hover:scale-110"
               aria-label="Facebook"
             >
@@ -22,7 +22,7 @@ export default function Footer() {
 
             {/* TikTok */}
             <a
-              href="#"
+              href="https://www.facebook.com/profile.php?id=100010592556025"
               className="w-10 h-10 rounded-full bg-cream-100 hover:bg-black hover:text-white text-slate-800 flex items-center justify-center transition-all duration-200 hover:scale-110 hover:drop-shadow-[0_0_8px_rgba(0,242,234,0.6)]"
               aria-label="TikTok"
             >
@@ -34,7 +34,7 @@ export default function Footer() {
             {/* WhatsApp */}
             <a
               // 1. Added the encoded text parameter directly to your phone number link
-              href="https://wa.me/50242848490?text=Hola%20X-Tech%2C%20%C2%BFc%C3%B3mo%20me%20pueden%20ayudar%3F"
+              href="https://wa.me/50242878490?text=Hola%20X-Tech%2C%20%C2%BFc%C3%B3mo%20me%20pueden%20ayudar%3F"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-cream-100 hover:bg-green-400 hover:text-white text-green-600 flex items-center justify-center transition-all duration-200 hover:scale-110"
