@@ -58,7 +58,7 @@ export default function ScrollingBanner() {
               <img
                 src={item.img}
                 alt={item.label}
-                className="w-full h-36 md:h-44 object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-40 md:h-48 object-cover group-hover:scale-105 transition-transform duration-500"
               />
               {/* Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent flex flex-col justify-end p-3">
@@ -70,7 +70,7 @@ export default function ScrollingBanner() {
                 </p>
                 <div className="mt-1.5 flex items-center gap-1">
                   <span className="text-[9px] text-xela-light tracking-widest uppercase font-semibold">
-                    X-Tech Moran-Monroe
+                    X·-Tech Moran-Monroe
                   </span>
                 </div>
               </div>

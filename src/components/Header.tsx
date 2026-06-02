@@ -34,19 +34,17 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
           >
             <div className="flex flex-col items-center leading-none">
               {/* Main Heading - Words glow independently on hover */}
-              <span className="font-serif text-2xl md:text-3xl font-bold text-black tracking-tight">
-                <span className="font-bold text-blue-500 transition-all duration-200 hover:text-pink-400 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">PRESENCIA </span>
-                <span className="font-bold text-blue-600 transition-all duration-200 hover:text-pink-500 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">DIGITAL </span>
-                <span className="font-bold text-blue-500 transition-all duration-200 hover:text-pink-600 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">PARA </span>
-                <span className="font-bold text-blue-500 transition-all duration-200 hover:text-pink-700 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">TU </span>
-                <span className="font-bold text-blue-600 transition-all duration-200 hover:text-pink-600 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">NEGOCIO </span>
-                <span className="font-bold text-blue-500 transition-all duration-200 hover:text-pink-500 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">X</span>
-                <span className="transition-all duration-200 hover:text-xela-gold hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">-Tech</span>
+              <span className="font-serif text-2xl md:text-3xl font-bold text-[#2154c0] tracking-tight">
+                <span className="font-bold text-blue-500 transition-all duration-200 hover:text-pink-400 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">SOLUCIONES </span>
+                <span className="font-bold text-blue-600 transition-all duration-200 hover:text-pink-500 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">TECNOLOGICAS  </span>
+                <span className="font-bold text-blue-500 transition-all duration-200 hover:text-pink-500 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">X </span>
+                <span className="font-bold text-[#49e5f0d2] transition-all duration-200 hover:text-pink-500 hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]">·</span>
+                <span className="transition-all duration-200 hover:text-xela-gold hover:drop-shadow-[0_0_12px_rgba(234,179,8,0.7)]"> TECH</span>
               </span>
               
               {/* Subtitle - Glows independently when hovered directly */}
               <span className="text-[9px] text-xela-brown/60 tracking-[0.3em] uppercase font-medium transition-all duration-200 hover:text-xela-brown hover:drop-shadow-[0_0_8px_rgba(78,52,46,0.6)] mt-1">
-                Alimentos Artesanales
+                Tu Negocio Merece Brillar en el Mundo Digital!
               </span>
             </div>
           </button>
@@ -57,7 +55,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
               <div className="w-20 h-20 rounded-full bg-xela-warm border-2 border-blue-500 flex items-center justify-center overflow-hidden shadow-md">
                 <img
                   src="/image.png"
-                  alt="Mascota X-Tech"
+                  alt="Mascota X·-Tech"
                   className="w-full h-full object-cover"
                 />
               </div>

@@ -53,7 +53,7 @@ const rightBlocks = [
     img: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800',
     thumb: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400',
     title: '¿Y tú... ya las probaste?',
-    sub: 'Hamburguesas artesanales X-Tech',
+    sub: 'Hamburguesas artesanales X·-Tech',
     badge: 'OFERTA',
     dark: true,
   },
@@ -90,31 +90,21 @@ export default function HomePage() {
               </svg>
             </div>
 
-            {/* X-TECH branding inside */}
+            {/* X·-TECH branding inside */}
             <div className="px-6 pt-6 pb-2">
               <div className="flex items-start justify-between">
                 <div>
-                  <p className="text-xela-brown/50 text-[10px] tracking-[0.25em] uppercase font-semibold">
-                    Alimentos Artesanales
+                  <p className="text-[#3611ee] text-[10px] tracking-[0.25em] uppercase font-semibold">
+                    Categoria de tu negocio
                   </p>
-                  <h2 className="font-serif text-2xl font-bold text-black leading-tight mt-0.5">
-                    <span className="bold text-blue-700">X</span>-Tech
+                  <h2 className="font-serif text-2xl font-bold text-[#1e2779] leading-tight mt-0.5">
+                    <span className="bold text-blue-700">X· </span>-Tech
                   </h2>
                 </div>
               </div>
 
               <div className="mt-5 space-y-1">
-                <p className="text-xela-brown font-semibold text-sm tracking-wide">MODERNIZATE, LA PRESENCIA DIGITAL DE TU NEGOCIO ES IMPORTANTE...</p>
-                <p className="text-xela-brown font-semibold text-sm tracking-wide">🚀¡Aparecer en los motores de búsqueda de Google!</p>
-                <p className="text-xela-brown font-semibold text-sm tracking-wide">🚀¡Confiancia con tus futuros clientes!</p>
-                <p className="text-xela-brown font-semibold text-sm tracking-wide">🚀¡Solidez de tu negocio!</p>
-                <p className="text-xela-brown font-semibold text-sm tracking-wide">🚀¡Enlace de tus redes sociales para atraer más clientes!</p>
-                <p className="text-xela-brown font-semibold text-sm tracking-wide">🚀¡Dar a conocer tu negocio al mundo!</p>
-                <p className="text-xela-brown font-semibold text-sm tracking-wide">🚀¡Aparecer en Google!</p>
-                <p className="text-xela-brown font-semibold text-sm tracking-wide">🚀¡Hacer más ventas!</p>
-                <p className="text-xela-brown font-semibold text-sm tracking-wide">🚀¡Y más ventas equivale a más clientes o dinero!</p>
-                <p className="text-xela-brown font-semibold text-sm tracking-wide">🚀¡Además, todos los botones integrados para una mejor experiencia de tus clientes y tu negocio!</p>             
-                <p className="text-xela-brown font-semibold text-sm tracking-wide"></p>
+                <p className="text-[#68cbe4] font-semibold text-sm tracking-wide">MODERNIZATE, LA PRESENCIA DIGITAL DE TU NEGOCIO ES IMPORTANTE...</p>
               </div>
             </div>
 
@@ -145,7 +135,7 @@ export default function HomePage() {
             {/* Bottom branding strip */}
             <div className="px-4 pb-4">
               <p className="text-xela-brown/40 text-[10px] text-right tracking-widest font-medium uppercase">
-                M.R. X-Tech
+                M.R. X·-Tech
               </p>
             </div>
           </div>
@@ -195,7 +185,7 @@ export default function HomePage() {
                           block.dark ? 'text-xela-light/70' : 'text-xela-brown/60'
                         }`}
                       >
-                        X-Tech
+                        X·-Tech
                       </span>
                     </div>
                     <h3
@@ -231,7 +221,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-4 lg:px-6">
           <div className="flex flex-wrap items-center justify-left gap-6 md:gap-12 text-base">
             <div className="flex items-center gap-2">
-            <span className="font-semibold text-gray-800">Teléfono:</span> <span className="text-cream-50">4287-8490</span>
+            <span className="font-semibold text-gray-800">Teléfono:</span> <span className="text-cream-50">4733-8991</span>
             </div>
               <div className="flex items-center gap-2">
               <span className="font-semibold text-gray-800">Horario:</span> <span className="text-cream-50">AM – PM</span>

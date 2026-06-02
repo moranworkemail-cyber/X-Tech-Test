@@ -34,7 +34,7 @@ export default function Footer() {
             {/* WhatsApp */}
             <a
               // 1. Added the encoded text parameter directly to your phone number link
-              href="https://wa.me/50242878490?text=Hola%20X-Tech%2C%20%C2%BFc%C3%B3mo%20me%20pueden%20ayudar%3F"
+              href="https://wa.me/50247338991?text=Hola%20X·-Tech%2C%20%C2%BFc%C3%B3mo%20me%20pueden%20ayudar%3F"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-cream-100 hover:bg-green-400 hover:text-white text-green-600 flex items-center justify-center transition-all duration-200 hover:scale-110"
@@ -76,7 +76,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-3">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-2 w-full">
           <p className="text-xs text-gray-500">
-            Project-2026 X-Tech. Todos los derechos reservados.
+            Project-2026 X·-Tech. Todos los derechos reservados.
           </p>
           <div className="flex items-center gap-1 text-xs text-gray-500">
             <span>Alimentos Artesanales</span>
